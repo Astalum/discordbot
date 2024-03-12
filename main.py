@@ -2,7 +2,7 @@ import discord
 import config
 
 intents = discord.Intents.all()
-client=discord.client(intents=intents)
+client=discord.Client(intents=intents)
 
 # bot起動時に発火
 @client.Event
