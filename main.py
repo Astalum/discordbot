@@ -5,7 +5,7 @@ intents = discord.Intents.all()
 client=discord.Client(intents=intents)
 
 # bot起動時に発火
-@client.Event
+@client.event
 async def on_ready():
     print("Ready!")
 
